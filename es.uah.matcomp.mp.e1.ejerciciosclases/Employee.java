@@ -1,3 +1,5 @@
+package es.uah.matcomp.mp.e1.ejerciciosclases;
+
 public class Employee {
 
     private int id;
@@ -5,7 +7,7 @@ public class Employee {
     private String lastName;
     private int salary;
 
-    public Employee(int id, String firstName,String lastName, int salary){
+    public Employee(int id, String firstName, String lastName, int salary){
         this.id=id;
         this.firstName=firstName;
         this.lastName=lastName;

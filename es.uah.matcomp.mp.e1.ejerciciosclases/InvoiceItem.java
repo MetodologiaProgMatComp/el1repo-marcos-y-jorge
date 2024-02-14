@@ -1,10 +1,12 @@
+package es.uah.matcomp.mp.e1.ejerciciosclases;
+
 public class InvoiceItem {
     private String id;
     private String desc;
     private int qty;
     private double unitPrice;
 
-    public InvoiceItem(String id,String desc,int qty, double unitPrice){
+    public InvoiceItem(String id, String desc, int qty, double unitPrice){
         this.id=id;
         this.desc=desc;
         this.qty=qty;
