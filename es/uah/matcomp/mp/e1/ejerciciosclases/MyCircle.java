@@ -6,7 +6,7 @@ public class MyCircle {
         this.center= new MyPoint2();
         this.radius =1;
     }
-    public MyCircle(int x, int y,int radius){
+    public MyCircle(int x, int y, int radius){
         this.radius=radius;
         this.center= new MyPoint2(x,y);
     }
