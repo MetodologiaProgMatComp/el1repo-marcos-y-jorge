@@ -1,8 +1,11 @@
+package es.uah.matcomp.mp.e1.ejerciciosclases;
+///Ejercicio 2.7,2.8 y 2.9
+
 public class MyPoint2 {
     private int x;
     private int y;
 
-    // Constructors
+
     public MyPoint2() {
         this.x = 0;
         this.y = 0;
@@ -13,7 +16,7 @@ public class MyPoint2 {
         this.y = y;
     }
 
-    // Getter and Setter methods
+
     public int getX() {
         return x;
     }
@@ -41,7 +44,6 @@ public class MyPoint2 {
 
         return Math.sqrt(deltaX * deltaX + deltaY * deltaY);
     }
-    ///Ejercicio 2.7
     public int[] getXY() {
         return new int[]{x, y};
     }

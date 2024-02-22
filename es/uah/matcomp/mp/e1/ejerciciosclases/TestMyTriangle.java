@@ -1,3 +1,5 @@
+package es.uah.matcomp.mp.e1.ejerciciosclases;
+
 public class TestMyTriangle {
     public static void main(String[] args) {
         MyPoint2 point1 = new MyPoint2(0, 0);
