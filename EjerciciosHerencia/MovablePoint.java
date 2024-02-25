@@ -1,4 +1,6 @@
-public class MovablePoint extends Point{
+package EjerciciosHerencia;
+
+public class MovablePoint extends Point {
     private float xSpeed;
     private float ySpeed;
     public MovablePoint(float x, float y, float xSpeed,float ySpeed){
@@ -46,9 +48,9 @@ public class MovablePoint extends Point{
         return "("+getX()+","+getY()+")"+",speed=("+ xSpeed+","+ySpeed+")";
     }
     MovablePoint move(){
-        x+=xSpeed;
-        y+=ySpeed;
+        this.setX(this.getX()+this.getxSpeed());
+        this.setY(this.getY()+this.getySpeed());
         return this;
     }
 }
-//SubClase MovablePoint
+//SubClase EjerciciosHerencia.MovablePoint
