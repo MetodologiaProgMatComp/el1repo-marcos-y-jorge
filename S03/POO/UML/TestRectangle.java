@@ -1,3 +1,5 @@
+import S03.POO.UML.Rectangle;
+
 public class TestRectangle {
         public static void main(String[] args) {
             // Test constructors and toString()

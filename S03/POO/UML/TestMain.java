@@ -1,3 +1,5 @@
+import S03.POO.UML.Circle;
+
 public class TestMain {
     public static void main(String[] args) {
         // Test Constructors and toString()
