@@ -46,6 +46,6 @@ public class Square extends Rectangle {
 
     @Override
     public String toString() {
-        return "Square[Rectangle[\"Rectangle[Shape[color= "+ color + ",filled="+ filled +"] width=" + width+"length="+length+"]";
+        return "Square[Rectangle[Shape[color= "+ color + ",filled="+ filled +"] width=" + width+"length="+length+"]";
     }
 }

@@ -43,6 +43,6 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString() {
-        return"EjerciciosPolimorfismo.Rectangle[EjerciciosPolimorfismo.Shape[color= "+ color + ",filled="+ filled+"] width=" + width+"length="+length+"]";
+        return"Rectangle[Shape[color= "+ color + ",filled="+ filled+"] width=" + width+"length="+length+"]";
     }
 }
