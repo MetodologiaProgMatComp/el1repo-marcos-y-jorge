@@ -1,3 +1,5 @@
+package EjerciciosPolimorfismo;
+
 public class Circle extends Shape {
     protected double radius;
     public Circle(){
@@ -30,7 +32,7 @@ public class Circle extends Shape {
 
     @Override
     public String toString() {
-        return"Circle[Shape[color= "+ color + ",filled="+ filled+"] radius=" + radius+"]";
+        return"EjerciciosPolimorfismo.Circle[EjerciciosPolimorfismo.Shape[color= "+ color + ",filled="+ filled+"] radius=" + radius+"]";
 
     }
 }

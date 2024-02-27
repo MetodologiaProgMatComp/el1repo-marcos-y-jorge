@@ -1,3 +1,5 @@
+package EjerciciosPolimorfismo;
+
 public abstract class Shape {
     protected String color;
     protected Boolean filled;
@@ -28,9 +30,8 @@ public abstract class Shape {
     abstract double getArea();
     abstract double getPerimeter();
 
-    @Override
     public String toString() {
-        return "Shape{" +
+        return "EjerciciosPolimorfismo.Shape{" +
                 "color='" + color + '\'' +
                 ", filled=" + filled +
                 '}';

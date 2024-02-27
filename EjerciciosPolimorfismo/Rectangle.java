@@ -1,4 +1,6 @@
-public class Rectangle extends Shape{
+package EjerciciosPolimorfismo;
+
+public class Rectangle extends Shape {
         protected double width;
         protected double length;
         public Rectangle(){
@@ -41,6 +43,6 @@ public class Rectangle extends Shape{
 
     @Override
     public String toString() {
-        return"Rectangle[Shape[color= "+ color + ",filled="+ filled+"] width=" + width+"length="+length+"]";
+        return"EjerciciosPolimorfismo.Rectangle[EjerciciosPolimorfismo.Shape[color= "+ color + ",filled="+ filled+"] width=" + width+"length="+length+"]";
     }
 }
