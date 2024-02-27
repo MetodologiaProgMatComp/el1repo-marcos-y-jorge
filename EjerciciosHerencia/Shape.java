@@ -1,3 +1,4 @@
+package EjerciciosHerencia;
 public class Shape {
     private String color;
     private boolean filled;

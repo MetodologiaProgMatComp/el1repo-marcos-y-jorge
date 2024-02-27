@@ -1,3 +1,4 @@
+package EjerciciosHerencia;
 public class TestShape {
     public static void main(String[] args) {
         // Prueba de la clase Shape

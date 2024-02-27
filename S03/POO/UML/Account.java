@@ -1,3 +1,5 @@
+package S03.POO.UML;
+
 public class Account{
     private String id;
     private String name;
@@ -43,7 +45,7 @@ public class Account{
         return balance;
     }
     public String toString() {
-        return "Account[id=" + id + " name= " + name + " balance= "+ balance+ "]";
+        return "S03.POO.UML.Account[id=" + id + " name= " + name + " balance= "+ balance+ "]";
     }
 }
 

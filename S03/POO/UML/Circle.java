@@ -1,3 +1,5 @@
+package S03.POO.UML;
+
 public class Circle {
     private double radius;
 
@@ -21,6 +23,6 @@ public class Circle {
         return Math.PI*2*radius;
     }
     public String toString() {
-        return "Circle[radius=" + radius + " ]";
+        return "S03.POO.UML.Circle[radius=" + radius + " ]";
     }
 }

@@ -1,3 +1,5 @@
+package EjerciciosHerencia;
+
 public class Person {
     private String name;
     private String address;
@@ -21,10 +23,10 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "EjerciciosHerencia.Person{" +
                 "name='" + name + '\'' +
                 ", address='" + address + '\'' +
                 '}';
     }
 }
-//SuperClase Person
+//SuperClase EjerciciosHerencia.Person

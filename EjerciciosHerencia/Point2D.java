@@ -1,3 +1,4 @@
+package EjerciciosHerencia;
 public class Point2D {
     private float x;
     private float y;

@@ -1,3 +1,7 @@
+package EjerciciosHerencia;
+
+import EjerciciosHerencia.Person;
+
 public class Staff extends Person {
     private String school;
     private double pay;
@@ -25,11 +29,11 @@ public class Staff extends Person {
 
     @Override
     public String toString() {
-        return "Staff{" +
+        return "EjerciciosHerencia.Staff{" +
                 "[name=" + getName() + ", address=" + getAddress() +
                 "school='" + school + '\'' +
                 ", pay=" + pay +
                 ']';
     }
 }
-//Subclase Staff
+//Subclase EjerciciosHerencia.Staff

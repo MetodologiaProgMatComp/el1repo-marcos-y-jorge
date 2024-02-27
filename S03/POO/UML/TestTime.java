@@ -1,3 +1,7 @@
+package S03.POO.UML;
+
+import S03.POO.UML.Time;
+
 public class TestTime {
     public static void main(String[] args) {
         // Test constructors and toString()

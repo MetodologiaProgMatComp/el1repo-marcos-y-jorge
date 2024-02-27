@@ -1,3 +1,5 @@
+package S03.POO.UML;
+
 public class Employee {
 
     private int id;
@@ -38,7 +40,7 @@ public class Employee {
         return salary;
     }
     public String toString() {
-        return "Employee[id=" + id + " name= " + firstName + lastName + " salary= "+ salary+" ]";
+        return "S03.POO.UML.Employee[id=" + id + " name= " + firstName + lastName + " salary= "+ salary+" ]";
     }
 
 }

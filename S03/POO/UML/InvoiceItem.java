@@ -1,3 +1,5 @@
+package S03.POO.UML;
+
 public class InvoiceItem {
     private String id;
     private String desc;
@@ -32,7 +34,7 @@ public class InvoiceItem {
         return qty*unitPrice;
     }
     public String toString() {
-        return "InvoiceItem[id=" + id + " desc= " + desc + " qty= "+ qty+" unitPrice = " + unitPrice + "]";
+        return "S03.POO.UML.InvoiceItem[id=" + id + " desc= " + desc + " qty= "+ qty+" unitPrice = " + unitPrice + "]";
     }
 
 }

@@ -1,3 +1,5 @@
+package S03.POO.UML;
+
 import S03.POO.UML.Rectangle;
 
 public class TestRectangle {

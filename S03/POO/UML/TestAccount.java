@@ -1,3 +1,7 @@
+package S03.POO.UML;
+
+import S03.POO.UML.Account;
+
 public class TestAccount {
     public static void main (String[]args){
         // Test constructor and toString()

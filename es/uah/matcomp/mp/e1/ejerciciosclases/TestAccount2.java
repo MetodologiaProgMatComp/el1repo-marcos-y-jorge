@@ -1,3 +1,5 @@
+package es.uah.matcomp.mp.e1.ejerciciosclases;
+
 public class TestAccount2 {
         public static void main(String[] args) {
             // Crear un objeto Customer2

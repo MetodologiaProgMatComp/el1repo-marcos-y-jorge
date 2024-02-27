@@ -1,3 +1,5 @@
+package EjerciciosHerencia;
+
 public class Point {
     private float x;
     private float y;
@@ -42,4 +44,4 @@ public class Point {
         return "("+x+","+y+")";
     }
 }
-//SuperClase Point
+//SuperClase EjerciciosHerencia.Point

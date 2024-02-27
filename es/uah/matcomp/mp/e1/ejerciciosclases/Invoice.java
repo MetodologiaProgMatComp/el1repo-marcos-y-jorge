@@ -1,4 +1,4 @@
-import es.uah.matcomp.mp.e1.ejerciciosclases.Customer;
+package es.uah.matcomp.mp.e1.ejerciciosclases;
 
 public class Invoice {
     private int id;

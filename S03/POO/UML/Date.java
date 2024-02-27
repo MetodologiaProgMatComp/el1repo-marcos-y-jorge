@@ -1,3 +1,5 @@
+package S03.POO.UML;
+
 public class Date {
     private int day;
     private int month;
@@ -33,7 +35,7 @@ public class Date {
         this.year=year;
     }
     public String toString() {
-        return "Date = " + day + "/" + month + "/" +year ;
+        return "S03.POO.UML.Date = " + day + "/" + month + "/" +year ;
     }
 
 }

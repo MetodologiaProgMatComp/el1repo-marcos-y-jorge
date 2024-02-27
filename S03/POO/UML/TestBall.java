@@ -1,3 +1,7 @@
+package S03.POO.UML;
+
+import S03.POO.UML.Ball;
+
 public class TestBall {
     public static void main(String[] args) {
         // Test constructor and toString()

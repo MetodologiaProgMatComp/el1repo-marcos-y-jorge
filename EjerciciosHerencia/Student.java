@@ -1,3 +1,7 @@
+package EjerciciosHerencia;
+
+
+
 public class Student extends Person {
     private String program;
     private int year;
@@ -37,9 +41,9 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return  "Student [name=" + getName() + ", address=" + getAddress() + ", program=" + program + ", year=" + year + ", fee=" + fee + "]";
+        return  "EjerciciosHerencia.Student [name=" + getName() + ", address=" + getAddress() + ", program=" + program + ", year=" + year + ", fee=" + fee + "]";
 
     }
 
 }
-//Subclase Student
+//Subclase EjerciciosHerencia.Student

@@ -1,3 +1,5 @@
+package S03.POO.UML;
+
 public class Rectangle {
     private float length;
     private float width;
@@ -31,7 +33,7 @@ public class Rectangle {
         return (2*length)+(2*width);
     }
     public String toString() {
-        return "Rectangle[length=" + length + " width= " + width + " ]";
+        return "S03.POO.UML.Rectangle[length=" + length + " width= " + width + " ]";
     }
 
 }

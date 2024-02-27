@@ -1,3 +1,5 @@
+package S03.POO.UML;
+
 public class Time {
     private int hour;
     private int minute;

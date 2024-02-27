@@ -1,5 +1,5 @@
 
-
+package EjerciciosHerencia;
 public class TestPoint2D3D {
     public static void main(String[] args) {
         // Prueba la clase Point2D

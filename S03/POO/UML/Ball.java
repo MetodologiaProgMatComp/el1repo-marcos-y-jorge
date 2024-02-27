@@ -1,3 +1,5 @@
+package S03.POO.UML;
+
 public class Ball {
     private float x;
     private float y;
@@ -52,7 +54,7 @@ public class Ball {
         yDelta = -yDelta;
     }
     public String toString() {
-        return "Ball[("+ x +","+ y + "),speed("+ xDelta + "," + yDelta + ")]";
+        return "S03.POO.UML.Ball[("+ x +","+ y + "),speed("+ xDelta + "," + yDelta + ")]";
     }
 }
 
