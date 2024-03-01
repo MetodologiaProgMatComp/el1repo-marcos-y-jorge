@@ -1,18 +1,26 @@
-public class MovableCircle {
+package EjerciciosPolimorfismo;
+
+public class MovableCircle implements Movable  {
     private int radius;
     private MovablePoint center;
-    public MovableCircle(int x,int y,int xSpeed,int ySpeed,int radius){
-        this.x=new MovablePoint.(x);
-        this.y=new MovablePoint(y);
-        this.xSpeed=new MovablePoint(xSpeed);
-        this.ySpeed=new MovablePoint(ySpeed);
+    public MovableCircle(int x, int y, int xSpeed, int ySpeed, int radius){
+        this.center=new MovablePoint(x, y, xSpeed, ySpeed);
+
         this.radius=radius;
     }
     public String toString(){
-        return "("+new MovablePoint(x) + ","+new MovablePoint(y)+"), speed=("+new MovablePoint(xSpeed)+","+new MovablePoint(ySpeed)"), radius=" +radius+"
+        return "(" + center.getX() +", "+ center.getY() + ", speed=(" + center.getXSpeed() + "," + center.getYSpeed()  +"), radius=" + radius;
     }
-    public void moveUp();
-    public void moveDown();
-    public void moveLeft();
-    public void moveRight();
+    public void moveUp(){
+        center.moveUp();
+    }
+    public void moveDown(){
+        center.moveDown();
+    }
+    public void moveRight(){
+        center.moveRight();
+    }
+    public void moveLeft(){
+        center.moveLeft();
+    }
 }

@@ -1,10 +1,11 @@
+package EjerciciosPolimorfismo;
+
 public class TestMovable {
 
     public static void main(String[] args) {
         testMovablePoint();
         testMovableCircle();
     }
-
     public static void testMovablePoint() {
         MovablePoint point = new MovablePoint(1, 2, 3, 4);
 

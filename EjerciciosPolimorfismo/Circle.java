@@ -32,7 +32,7 @@ public class Circle extends Shape {
 
     @Override
     public String toString() {
-        return"EjerciciosPolimorfismo.Circle[EjerciciosPolimorfismo.Shape[color= "+ color + ",filled="+ filled+"] radius=" + radius+"]";
+        return"Circle[Shape[color= "+ color + ",filled="+ filled+"] radius=" + radius+"]";
 
     }
 }
